@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9FE7AF2A224256003D705F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9FE7AE2A224256003D705F /* User.swift */; };
+		6C9FE7B52A226A2A003D705F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9FE7B42A226A2A003D705F /* DetailView.swift */; };
+		6C9FE7B72A22739A003D705F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9FE7B62A22739A003D705F /* Extensions.swift */; };
 		6CCF2B1C2A203C2F002FA16C /* TODO.md in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF2B1B2A203C2F002FA16C /* TODO.md */; };
 		6CCF2B1F2A203C2F002FA16C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF2B1E2A203C2F002FA16C /* .gitignore */; };
 		6CCF2B212A203C2F002FA16C /* PrivateKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF2B202A203C2F002FA16C /* PrivateKeys.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C9FE7AE2A224256003D705F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = SocialNetwork/User.swift; sourceTree = SOURCE_ROOT; };
+		6C9FE7B42A226A2A003D705F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6C9FE7B62A22739A003D705F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6CCF2B182A203C2F002FA16C /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCF2B1B2A203C2F002FA16C /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		6CCF2B1E2A203C2F002FA16C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -66,6 +72,8 @@
 				6CCF2B1B2A203C2F002FA16C /* TODO.md */,
 				6CCF2B2B2A203C2F002FA16C /* SocialNetworkApp.swift */,
 				6CCF2B2D2A203C2F002FA16C /* ContentView.swift */,
+				6C9FE7B42A226A2A003D705F /* DetailView.swift */,
+				6C9FE7B62A22739A003D705F /* Extensions.swift */,
 				6CCF2B2F2A203C30002FA16C /* Assets.xcassets */,
 				6CCF2B1D2A203C2F002FA16C /* Private */,
 				6CCF2B222A203C2F002FA16C /* Models */,
@@ -88,6 +96,7 @@
 		6CCF2B222A203C2F002FA16C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6C9FE7AE2A224256003D705F /* User.swift */,
 				6CCF2B232A203C2F002FA16C /* AppSettings.swift */,
 			);
 			path = Models;
@@ -190,9 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CCF2B242A203C2F002FA16C /* AppSettings.swift in Sources */,
+				6C9FE7B72A22739A003D705F /* Extensions.swift in Sources */,
+				6C9FE7B52A226A2A003D705F /* DetailView.swift in Sources */,
 				6CCF2B2A2A203C2F002FA16C /* AppSettingsView.swift in Sources */,
 				6CCF2B2E2A203C2F002FA16C /* ContentView.swift in Sources */,
 				6CCF2B2C2A203C2F002FA16C /* SocialNetworkApp.swift in Sources */,
+				6C9FE7AF2A224256003D705F /* User.swift in Sources */,
 				6CCF2B272A203C2F002FA16C /* AppSettingsViewModel.swift in Sources */,
 				6CCF2B212A203C2F002FA16C /* PrivateKeys.swift in Sources */,
 			);
