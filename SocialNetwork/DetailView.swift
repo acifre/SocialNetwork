@@ -32,9 +32,16 @@ struct DetailView: View {
                     Text(user.isActive ? "Online" : "Offline")
                         .font(.caption)
                         .foregroundColor(user.isActive ? .green: .secondary)
+
                 }
             }
             Section("Contact Info") {
+                
+                HStack(alignment: .top) {
+                    Text("Joined:")
+                    Spacer()
+                    Text(user.formattedDate, style: .date)
+                }
                 HStack(alignment: .top){
                     Text("Email:")
                     Spacer()

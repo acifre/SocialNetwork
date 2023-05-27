@@ -32,4 +32,8 @@ struct User: Codable {
     var tags: [String]
     
     var friends: [Friend]
+    
+    var formattedDate: Date {
+        registered ?? Date.now
+    }
 }

@@ -48,7 +48,10 @@ struct ContentView: View {
                 }
             .padding(2)
             .task {
-                   await loadUserData()
+                if users.isEmpty {
+                    await loadUserData()
+                }
+
             }
             .navigationTitle("FriendFace")
         }
