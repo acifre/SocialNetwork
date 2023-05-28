@@ -7,10 +7,6 @@
 
 import Foundation
 
-enum CodingKeys: String, CodingKey {
-    case id = "id", name = "name", isActive = "isActive", age = "age", company = "company", email = "email", address = "address", about = "about", registered = "registered", tags = "tags", friends = "friends"
-}
-
 
 struct User: Codable {
     
